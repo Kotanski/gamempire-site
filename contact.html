@@ -1,0 +1,363 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+    <title>Gamempire</title>
+	
+	<!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+	<link href="css/socialmedia.css" rel="stylesheet">    
+	
+	<!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.2.0/js/mdb.min.js"></script> 
+	
+
+	<html manifest="manifest.cache">
+	<!--facebook open graph meta data -->
+	<meta property="og:title" content="Gamempire" />
+	<meta property="og:url" content="http://gamempire.net/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="Gamempire" />
+	<meta property="og:description" content="Gamempire: Creating Your Game Universe" />
+	<meta property="og:image" content="http://s553379227.online-home.ca/public/img/fblogo.png" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54268212-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- Navigation Bar -->
+
+<nav class="navbar navbar-dark red">
+    <!-- Collapse button-->
+	<button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx2" style="float: left; maring-left:100px;position:relative; z-index:99999 !important;">
+        <i class="fa fa-bars"></i>
+    </button>
+    <div class="container">
+        <!--Collapse content-->
+        <div class="collapse navbar-toggleable-xs" id="collapseEx2" >
+            <!--Navbar Brand-->
+            <a href="" class="navbar-brand"><img style="max-height:40px;" src="img/nav_logo.png" class="img-fluid" alt=""></a>
+            <!--Links-->
+            <ul class="nav navbar-nav" >
+                <li class="nav-item" style="transform: translate(0, 35%);" id="home">
+                    <a class="nav-link" href="" style="font-family: 'Open Sans', sans-serif;" >Home</a>
+                </li>
+                <li class="nav-item" style="transform: translate(0, 35%);" id="aboutus">
+                    <a class="nav-link" href="about.html" style="font-family: 'Open Sans', sans-serif;">About us</a>
+                </li>
+                <li class="nav-item" style="transform: translate(0, 35%);" id="team">
+                    <a class="nav-link" href="team.html" style="font-family: 'Open Sans', sans-serif;">Team</a>
+                </li>
+                
+            </ul>
+			
+            <ul class="nav navbar-nav" style="float: right">
+                <li class="nav-item" id="member">
+                </li>
+            </ul>
+			
+        </div>
+    </div>
+</nav>
+<!-- /ennd Navigation Bar -->
+<script>
+var url = window.location.href;
+var active = '<span class="sr-only">(current)</span>';
+var domain = 'https//gamempire.net';
+
+if (url == domain){
+var d = document.getElementById("home");
+d.className += " active";
+
+}
+
+if (url == domain+'about/'){
+var d = document.getElementById("aboutus");
+d.className += " active";
+}
+
+if (url == domain+'team/'){
+var d = document.getElementById("team");
+d.className += " active";
+}
+
+
+</script>
+
+<script>
+    $(function() {
+	var url = window.location.href;
+	if (url == domain+'profile/' || url == domain+'profile'){
+        //console.log( "profile loaded" );
+    }else{
+		$.getScript("/js/logged.js", function( data, textStatus, jqxhr ) {
+			//console.log( data ); // Data returned
+			//console.log( textStatus ); // Success
+			//console.log( jqxhr.status ); // 200
+			//console.log( "Load was performed." );
+});
+	}
+	});
+</script>
+	
+	<style>
+	li, span, p, h1, h2, h3, h4, h5 {
+		line-height: 1.8 !important;
+	}
+	</style>
+  </head>
+
+<body style="background-color:#ffffff;">
+<div id="_header"></div>
+
+<div class="container">
+    <div class="row">
+            <div class="col-md-12">
+
+			<!--Section: Contact v.2-->
+<section class="section">
+
+    <!--Section heading-->
+    <h1 class="section-heading">Contact us</h1>
+    <!--Section sescription-->
+    <p class="section-description mb-5">Comments, Questions, Feedback</p>
+
+    <div class="row">
+
+        <!--First column-->
+        <div class="col-md-8 card card-block" style="box-shadow: 0px 0px 19px 4px #888888; border-radius: 25px;">
+            <form>
+                <!--First row-->
+                <div class="row">
+                    <!--First column-->
+                    <div class="col-md-6">
+                        <div class="md-form">
+                            <div class="md-form">
+                                <input type="text" id="form41" class="form-control">
+                                <label for="form41" class="">Your name</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Second column-->
+                    <div class="col-md-6">
+                        <div class="md-form">
+                            <div class="md-form">
+                                <input type="text" id="form52" class="form-control">
+                                <label for="form52" class="">Your email</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.First row-->
+
+                <!--Second row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form">
+                            <input type="text" id="form51" class="form-control">
+                            <label for="form51" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--/Second row-->
+
+                <!--Third row-->
+                <div class="row">
+                    <!--First column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="form76" class="md-textarea"></textarea>
+                            <label for="form76">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--/.Third row-->
+            </form>
+
+            <div class="center-on-small-only">
+                <a class="btn btn-primary">Send</a>
+            </div>
+        </div>
+        <!--.First column-->
+
+        <!--Second column-->
+        <div class="col-md-4">
+            <ul class="contact-icons">
+                <!--<li><i class="fa fa-map-marker fa-2x"></i>
+                    <p>Toronto, Ontario, Canada</p>
+                </li>-->
+
+                <li><i class="fa fa-phone fa-2x"></i>
+                    <p>+ 01 647 526 0765</p>
+                </li>
+
+                <li><i class="fa fa-envelope fa-2x"></i>
+                    <p>gamempirecorp@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--.Second column-->
+
+    </div>
+</section>
+<!--/Section: Contact v.2-->
+
+            </div>
+    </div>
+</div>
+<!-- JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+	    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="/js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.2.0/js/mdb.min.js"></script>
+
+	
+	
+		<!-- Load _header -->
+
+<div id="_footer"><!--Footer-->
+<footer class="page-footer center-on-small-only">
+
+    <!--Footer Links-->
+    <div class="container-fluid">
+        <div class="row">
+
+            <!--First column-->
+            <div class="col-md-3 offset-md-1">
+                <a href="/" class="navbar-brand"><img style="max-height:40px; padding-bottom:3px;" src="img/footer_logo.png" class="img-fluid" alt=""><p>Creating Your Game Universe</p></a>
+            </div>
+            <!--/.First column-->
+
+            <hr class="hidden-md-up">
+
+            <!--Second column-->
+            <div class="col-md-2 offset-md-1">
+                <h5 class="title"></h5>
+                <ul><!--
+                    <li><a href="#!">Home</a></li>
+                    <li><a href="#!">About Us</a></li>
+                    <li><a href="#!">Team</a></li>
+					-->
+                </ul>
+            </div>
+            <!--/.Second column-->
+
+            <hr class="hidden-md-up">
+
+            <!--Third column-->
+            <div class="col-md-2">
+                <h5 class="title"></h5>
+                <ul>                   
+					<li><a href="./" data-toggle="tooltip" data-placement="top" title="Home">Home</a></li>
+                    <li><a href="about.html" data-toggle="tooltip" data-placement="top" title="About us">About us</a></li>
+                    <li><a href="team.html" data-toggle="tooltip" data-placement="top" title="See our team">Team</a></li>
+                </ul>
+            </div>
+            <!--/.Third column-->
+
+            <hr class="hidden-md-up">
+
+            <!--Fourth column-->
+            <div class="col-md-2">
+                <h5 class="title"></h5>
+                <ul>
+                    <li><a href="privacy.html" data-toggle='tooltip' data-placement='top' title="Privacy Policy">Privacy</a></li>
+                    <li><a href="terms.html" data-toggle='tooltip' data-placement='top' title="Terms of Use">Terms of use</a></li>
+                    <li><a href="contact.html" data-toggle='tooltip' data-placement='top' title="Comments, Questions, Feedback">Contact us</a></li>
+                </ul>
+            </div>
+            <!--/.Fourth column-->
+
+        </div>
+    </div>
+    <!--/.Footer Links-->
+
+
+    <!--Call to action--
+	    <hr>
+    <div class="call-to-action">
+        <ul>
+            <li>
+                <h5>Register for free</h5></li>
+            <li><a href="" class="btn btn-danger">Sign up!</a></li>
+        </ul>
+    </div>
+    <!--/.Call to action-->
+
+    <hr>
+
+    <!--Social buttons-->
+	<style>
+
+#sl:hover {
+    color: red;
+	font-size: 25px;
+}
+#sl {
+	font-size: 25px;
+	padding-left: 5px;
+}
+	</style>
+    <div class="social-section">
+        <ul>
+            <li><a target="_blank" href="https://www.facebook.com/gamempirenet/" class="btn-floating btn-small btn-fb" id="sl" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"> </i></a></li>
+            <li><a target="_blank" href="https://twitter.com/Gamempirenet/" class="btn-floating btn-small btn-tw" id="sl"><i class="fa fa-twitter" data-toggle="tooltip" data-placement="top" title="Twitter"> </i></a></li>
+            <li><a target="_blank" href="https://plus.google.com/116809176032647545353" class="btn-floating btn-small btn-gplus"id="sl" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus"> </i></a></li>
+			<li><a target="_blank" href="https://www.youtube.com/channel/UCscQYwP1ZXfPVAUfT5Es4Jw" class="btn-floating btn-small btn-yt" id="sl" data-toggle="tooltip" data-placement="top" title="YouTube"><i class="fa fa-youtube"> </i></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/gamempirecorp/" class="btn-floating btn-small btn-ins" id="sl" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"> </i></a></li>
+			<li><a target="_blank" href="https://www.twitch.tv/gamempiretv" class="btn-floating btn-small btn-twitch" id="sl" data-toggle="tooltip" data-placement="top" title="Twitch"><i class="fa fa-twitch"> </i></a></li>
+
+        </ul>
+    </div>
+    <!--/.Social buttons-->
+
+    <!--Copyright-->
+    <div class="footer-copyright">
+        <div class="container-fluid">
+            © 2017 Copyright <a href="//gamempire.net">Gaming Hub Inc.</a>
+
+        </div>
+    </div>
+    <!--/.Copyright-->
+</footer>
+<!--/.Footer-->
+ 
+</body>
+</html></div>
